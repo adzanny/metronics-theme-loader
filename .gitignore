@@ -1,0 +1,5 @@
+cache/*
+nbproject/*
+app/config/config.php
+.phalcon/*
+public/assets/*
