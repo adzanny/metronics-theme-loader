@@ -15,7 +15,9 @@ How to Use:
 
 2. Adjust database settings in app/config/config.js 
 
-3. In your controller add initialize() method and call JsCssHelper 
+3. Copy assets folder from metronics to public/assets (contains apps, global, layouts and pages directory)
+
+4. In your controller add initialize() method and call JsCssHelper 
 
 ```code
 $this->JsCssHelper->source(['header','footer','plugin_1','plugin_2','plugin_2','plugin_etc']);
@@ -43,7 +45,7 @@ class IndexController extends ControllerBase
 }
 ```
 
-4. In your view add
+5. In your view add
 ```code
 
 {# before <body> tag #}
