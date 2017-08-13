@@ -10,6 +10,7 @@ metronics-theme-loader
 - Apcu for caching
 
 How to Use:
+--------------
 
 1. upload mysql/sys_js_css_helper.sql to your database
 
@@ -22,7 +23,7 @@ How to Use:
 ```code
 $this->JsCssHelper->source(['header','footer','plugin_1','plugin_2','plugin_2','plugin_etc']);
 ```
-usage
+
 ```php
 <?php
 
